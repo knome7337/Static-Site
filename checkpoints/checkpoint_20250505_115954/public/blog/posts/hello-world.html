@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Static Site</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .blog-header {
+            margin-bottom: 2rem;
+        }
+        .blog-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .blog-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .blog-content {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        .blog-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        .blog-content pre {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .blog-content code {
+            background: #f5f5f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+        }
+        @media (max-width: 768px) {
+            .blog-post {
+                padding: 1rem;
+            }
+            .blog-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Static Site</div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="blog-post">
+            <header class="blog-header">
+                <h1 class="blog-title">Hello World</h1>
+                <div class="blog-meta">
+                    <span>Published on 2024-03-20</span>
+                    <span>by Your Name</span>
+                </div>
+            </header>
+            <div class="blog-content">
+                &lt;h1 id&#x3D;&quot;hello-world&quot;&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;Welcome to my first blog post! This is a simple example of how to write content in Markdown.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;why-markdown&quot;&gt;Why Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world&amp;#39;s most popular markup languages.&lt;/p&gt;
+&lt;h3 id&#x3D;&quot;benefits-of-markdown&quot;&gt;Benefits of Markdown&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Easy to read and write&lt;/li&gt;
+&lt;li&gt;Can be converted to HTML&lt;/li&gt;
+&lt;li&gt;Works well with version control&lt;/li&gt;
+&lt;li&gt;Supported by many platforms&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id&#x3D;&quot;code-example&quot;&gt;Code Example&lt;/h2&gt;
+&lt;p&gt;Here&amp;#39;s a simple JavaScript example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class&#x3D;&quot;language-javascript&quot;&gt;function greet(name) {
+    return &#x60;Hello, ${name}!&#x60;;
+}
+
+console.log(greet(&amp;#39;World&amp;#39;));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id&#x3D;&quot;images&quot;&gt;Images&lt;/h2&gt;
+&lt;p&gt;You can include images like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src&#x3D;&quot;https://via.placeholder.com/600x400&quot; alt&#x3D;&quot;Sample Image&quot;&gt;&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;That&amp;#39;s it for this first post! Stay tuned for more content about static site generation and web development. &lt;/p&gt;
+
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Static Site Generator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html> 
